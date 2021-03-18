@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Basic website using HTML & JavaScript</title>
+
+<meta charset="UTF-8">
+<script>
+function promptTalk() {
+var talk;
+talk = prompt("I am 1000 years old how about you?");
+if (talk <= 1000) {
+    alert("You arent advanced enough to talk to me yet"); }
+else {
+    alert("You are superior enough to speak to me") }
+}
+
+
+</script>
+<link rel="stylesheet" href="javascriptsite.css">
+
+</head>
+
+<body>
+    <div class="headercontainer">
+      <main><h2> ChatBot </h2></main>
+    </div><br>
+
+<div class="article1">
+
+    <section>
+        <h3> What is ChatBot?</h3>
+    <article>
+        <p> this is the number 1 place to go when lonley and in need of a reliable companion. Weather its a new friend,<br>
+          a new source of information or if its just to entertain yourself for abit whilst asking our bots stupid questions. <br>
+          ChatBot is for you. With our vastly superior bots that are indistinguishable from humans we will eliminate social lonliness.<br>
+        </p>
+    </article>
+  </section><br><br><br><br><br>
+
+</div>
+
+    <div class="middleimage">
+        <h1>Our Self Learning AI</h1>
+    </div><br><br><br><br><br><br><br><br>
+
+    <div>
+        <p class= "paraleft">Why are our bots special? What makes us different than the rest of other compaines that spealises in AI?<br>
+        </p>
+        <ul class="listleft">
+            <li> The bots ability to remember and recgonise things that you tell it</li>
+            <li> The ability to improve its knowledge and understanding of english the more you speak to it</li>
+            <li> A life time, ultra-realistic companion that knows you better than anyone else</li>
+            <li>customisation of multiple voices</li>
+            <li> Randomly generated bots that have human profiles</li>
+        </ul>
+
+
+
+
+    </div>
+
+
+
+<div class="asidecontainer">
+    <aside>
+        <h4>Meet Malcom The Bot</h4>
+</div>
+
+<div class="articlepara">
+
+
+    <img src="bot.png" alt="bot" width="378px" height="350px">
+        Talk to me: <input type="button" value="Enter age" onclick="promptTalk();"><br>
+        <textarea name="Speak to me" id="comments" rows="1" cols="1">
+
+        </textarea>
+        <input type="submit" value"contact"> <input type="reset">
+</div>
+</aside>
+
+</body>
+</html>
