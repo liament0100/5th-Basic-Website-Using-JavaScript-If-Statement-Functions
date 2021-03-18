@@ -67,3 +67,40 @@ span { font-family:serif;
 .listleft { margin-left: 100px;
             font-family: serif;
             font-size: 14pt;}
+
+
+            @media only screen and (max-width: 768px) {
+              body { margin: 0; }
+              .headercontainer { border: 2px solid #EAEAEA;
+                                background-color: #EAEAEA;
+                                padding: 20px;
+                                text-align: center;
+                                }
+              .middleimage { position: relative;
+                            left: -85px;}
+              
+              h1, h2 { font-size: 120%;
+                        float: left;}
+              p { font-size: 90%; }
+
+              ul li { font-size: 90%;}
+
+
+            }
+
+
+            @media only screen and (max-width: 1591px) {
+              body { margin: 0; }
+              .asidecontainer { border: 1px solid black;
+                                margin-left:1050px;
+                                position: relative;
+                                top: -310px;}
+              .articlepara { border: 1px solid black;
+                              margin-left:1050px;
+                              position: relative;
+                              top: -310px;}
+              img { height: 200px; width: 200px;}
+              h1, h2 { font-size: 120%; }
+              p { font-size: 90%; }
+              ul li { font-size: 90%;}
+            }
