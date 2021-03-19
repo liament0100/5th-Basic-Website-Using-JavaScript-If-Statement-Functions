@@ -20,23 +20,79 @@ h4 { font-size: 24pt;
 p { font-family: serif;
     font-size: 14pt;}
 
-span { font-family:serif;
+a { text-decoration: none;
+    color: #000;}
+
+
+
+
+.h2para { border: 2px solid #000;
+          background-color: #eaeaea;
+          padding: 10px;
+          margin-left: 780px;
+          margin-right: 330px;
+          position: relative;
+          top:-950px;
+          left: -690px;}
+
+.img2para { position: relative;
+            top: -900px;
+            right: -730px;
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: .1em;
+            font-size: 18pt;}
+
+
+.bottomp { position: relative;
+          top: -870px;
+          right: -730px;}
+
+
+.spanclass  { font-family:serif;
       font-size: 24px;
+      border: 10px solid #87919c;
+      background-color: #87919c;
+      padding: 10px 10px;
+      margin-left: 200px;
+      background-color: #87919c; }
 
-        }
+
+
+.img2 { position: relative;
+        top: -500px;
+        right: -100px;}
+
+.toplistdiv { border: 2px solid #979fad;
+              background-color: #979fad;
+              padding: 10px 10px;
+              margin-left: -25px;
+              margin-right: -25px;
+              margin-bottom: -30px;}
+
+.navflex { display: flex;
+          flex-direction: row; }
 
 
 
-
-.headercontainer { border: 2px solid #EAEAEA;
+.headercontainer { border: 2px solid #979fad;
                   background-color: #EAEAEA;
-                  padding: 30px;
+                  padding: 30px; }
 
 
-                  }
+.toplist { text-decoration: none;
+          display: flex;
+          flex-direction: row;
+          }
 
-.article1 {
-            margin-left: 100px; }
+.topliactual {
+
+              list-style-type: none;
+               text-decoration: none; }
+
+
+
+.article1 { margin-left: 100px; }
 
 .asidecontainer { position: relative;
                   bottom: 400px;
@@ -44,6 +100,7 @@ span { font-family:serif;
                   margin-left:1600px;
                   margin-right: 70px;
                   background-color: #EAEAEA;
+                  display: flex;
                   }
 
 .articlepara {position: relative;
@@ -68,6 +125,14 @@ span { font-family:serif;
             font-family: serif;
             font-size: 14pt;}
 
+.flex-container { display: flex;
+                  flex-direction: column;
+                    }
+
+.list1 { border: 1px none #EAEAEA;}
+
+
+
 
             @media only screen and (max-width: 768px) {
               body { margin: 0; }
@@ -76,16 +141,13 @@ span { font-family:serif;
                                 padding: 20px;
                                 text-align: center;
                                 }
-              .middleimage { position: relative;
+
+            .middleimage { position: relative;
                             left: -85px;}
-              
               h1, h2 { font-size: 120%;
                         float: left;}
               p { font-size: 90%; }
-
               ul li { font-size: 90%;}
-
-
             }
 
 
